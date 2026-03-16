@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<title>ChatFlow Elite — Privacy Policy</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 24px; color: #374151; line-height: 1.7; }
+  h1 { color: #111827; font-size: 28px; margin-bottom: 8px; }
+  h2 { color: #1f2937; font-size: 18px; margin-top: 32px; margin-bottom: 8px; }
+  .date { color: #6b7280; font-size: 14px; margin-bottom: 32px; }
+  a { color: #3b82f6; }
+  ul { padding-right: 20px; }
+  li { margin-bottom: 6px; }
+  .highlight { background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 8px; padding: 16px; margin: 20px 0; }
+</style>
+</head>
+<body>
+<h1>Privacy Policy — ChatFlow Elite</h1>
+<div class="date">Last updated: March 2026</div>
+
+<div class="highlight">
+  <strong>Summary:</strong> ChatFlow Elite does NOT collect, transmit, or sell any personal data.
+  All your data stays on your device in Chrome's local storage.
+</div>
+
+<h2>1. What Data We Collect</h2>
+<p>ChatFlow Elite stores the following data <strong>locally on your device only</strong>:</p>
+<ul>
+  <li>Canned responses you create (titles, text, categories)</li>
+  <li>Extension settings (theme, language, feature toggles)</li>
+  <li>Activity metrics (reply counts, timestamps — for your personal dashboard only)</li>
+  <li>Employee name (optional, entered by you)</li>
+  <li>API keys you provide (Gemini AI, Telegram bot — stored in Chrome's local storage)</li>
+</ul>
+
+<h2>2. What Data We Do NOT Collect</h2>
+<ul>
+  <li>We do NOT read, store, or transmit the contents of your ManyChat, Telegram, or WhatsApp conversations</li>
+  <li>We do NOT collect any personally identifiable information (PII)</li>
+  <li>We do NOT send any data to our servers — we have no servers</li>
+  <li>We do NOT use analytics, tracking pixels, or third-party SDKs</li>
+  <li>We do NOT access your contacts, browsing history, or other extensions</li>
+</ul>
+
+<h2>3. Third-Party Services</h2>
+<p>If you choose to enable optional integrations, data flows as follows:</p>
+<ul>
+  <li><strong>Google Gemini AI:</strong> When you use AI features, your message text is sent to Google's Gemini API using your own API key. Subject to <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</li>
+  <li><strong>Google Sheets (optional):</strong> Activity data is sent to your own Google Apps Script webhook. You control this data entirely.</li>
+  <li><strong>Telegram Bot (optional):</strong> Alert messages are sent via your own Telegram bot token. Subject to <a href="https://telegram.org/privacy">Telegram's Privacy Policy</a>.</li>
+</ul>
+
+<h2>4. Data Storage</h2>
+<p>All data is stored using Chrome's <code>chrome.storage.local</code> API, which means:</p>
+<ul>
+  <li>Data is stored only on your local device</li>
+  <li>Data is removed when you uninstall the extension</li>
+  <li>You can clear all data at any time via Chrome's extension settings</li>
+</ul>
+
+<h2>5. Permissions Justification</h2>
+<ul>
+  <li><strong>storage:</strong> Save your canned responses and settings locally</li>
+  <li><strong>tabs:</strong> Detect which site you're on to enable the right features</li>
+  <li><strong>scripting:</strong> Inject the canned responses drawer into supported sites</li>
+  <li><strong>notifications:</strong> Show SLA alerts when response time exceeds your threshold</li>
+  <li><strong>Host permissions (manychat.com, web.telegram.org, web.whatsapp.com):</strong> Required to inject the extension's UI into these specific sites</li>
+</ul>
+
+<h2>6. Changes to This Policy</h2>
+<p>If we update this policy, we will update the "Last updated" date above. Continued use of the extension after changes constitutes acceptance of the updated policy.</p>
+
+<h2>7. Contact</h2>
+<p>For privacy concerns or questions, please open an issue on our GitHub repository or contact us through the Chrome Web Store listing.</p>
+
+</body>
+</html>
