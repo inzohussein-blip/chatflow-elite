@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<title>ChatFlow Elite — Privacy Policy</title>
+<style>
+  body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; max-width: 860px; margin: 40px auto; padding: 0 24px; color: #374151; line-height: 1.75; }
+  h1 { color: #111827; font-size: 28px; margin-bottom: 8px; }
+  h2 { color: #1f2937; font-size: 18px; margin-top: 28px; margin-bottom: 10px; }
+  h3 { color: #111827; font-size: 15px; margin-top: 18px; margin-bottom: 8px; }
+  .date { color: #6b7280; font-size: 14px; margin-bottom: 22px; }
+  a { color: #2563eb; }
+  ul { padding-left: 18px; }
+  li { margin-bottom: 6px; }
+  .box { background: #f8fafc; border: 1px solid #e5e7eb; border-radius: 10px; padding: 14px 16px; margin: 14px 0; }
+  code { background: #f3f4f6; padding: 2px 6px; border-radius: 6px; }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy — ChatFlow Elite</h1>
+<div class="date">Last updated: March 2026 (v10.6.3)</div>
+
+<div class="box">
+  <strong>Summary</strong>
+  <ul>
+    <li>ChatFlow Elite does not sell personal data and has no proprietary servers.</li>
+    <li>Most data is stored locally on your device using <code>chrome.storage.local</code>.</li>
+    <li>Optional integrations (Gemini / Telegram Bot / Google Apps Script) only send data when you enable them and provide your own keys/tokens/webhooks.</li>
+  </ul>
+</div>
+
+<h2>1) What Data the Extension Stores (On Your Device)</h2>
+<p>ChatFlow Elite stores the following locally on your device to provide its features:</p>
+<ul>
+  <li>Canned responses you create (categories, titles, text, keywords/tags).</li>
+  <li>Extension settings (theme, language, feature toggles, supported sites enable/disable).</li>
+  <li>Activity metrics (reply usage counts and timestamps for your dashboard).</li>
+  <li>Team configuration (team ID, role, and webhook URL if you join a team).</li>
+  <li>API keys/tokens you provide for optional integrations (e.g., Gemini, Telegram Bot).</li>
+</ul>
+
+<h3>Local Tab Activity (Dashboard Feature)</h3>
+<p>If the dashboard features are used, the extension may store tab/activity metadata locally to power time/usage views. This is stored on your device only and is not sent to ChatFlow Elite servers (we have none).</p>
+<ul>
+  <li>Examples of metadata: visited URL/domain, tab title, and time spent.</li>
+  <li>You can clear this data anytime by clearing the extension's site data in Chrome.</li>
+</ul>
+
+<h2>2) What We Do NOT Do</h2>
+<ul>
+  <li>We do not sell your data.</li>
+  <li>We do not operate proprietary analytics, tracking pixels, or third‑party SDK trackers.</li>
+  <li>We do not transmit your full conversation history to ChatFlow Elite servers (we have no servers).</li>
+</ul>
+
+<h2>3) Optional Third‑Party Integrations (Enabled by You)</h2>
+<p>ChatFlow Elite can connect to third‑party services only if you enable these features and provide your own credentials:</p>
+<ul>
+  <li><strong>Google Gemini AI</strong>: When you use AI features, selected message text/context is sent to Gemini using your API key. Subject to <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</li>
+  <li><strong>Telegram Bot</strong>: If enabled, alerts/reports are sent using your bot token to your specified chat ID. Subject to <a href="https://telegram.org/privacy">Telegram Privacy Policy</a>.</li>
+  <li><strong>Google Apps Script / Google Sheets</strong>: Team sync and/or activity logging can be sent to your own Apps Script endpoint that you control.</li>
+</ul>
+
+<h2>4) Data Storage</h2>
+<p>Data is stored using Chrome's storage APIs:</p>
+<ul>
+  <li><code>chrome.storage.local</code> — local storage on your device (main storage).</li>
+  <li><code>chrome.storage.sync</code> — not used. This extension stores data locally only.</li>
+</ul>
+
+<h2>5) Permissions Justification</h2>
+<ul>
+  <li><strong>storage</strong>: Save your responses, settings, and dashboard metrics.</li>
+  <li><strong>tabs</strong>: Detect supported sites, enable the right features, and support optional dashboard tab activity views.</li>
+  <li><strong>notifications</strong>: Display alerts (e.g., SLA notifications or new message alerts).</li>
+  <li><strong>Host permissions</strong> (e.g., app.manychat.com, web.telegram.org, web.whatsapp.com, instagram.com): Required to inject UI into supported sites and enable automation features.</li>
+</ul>
+
+<h2>6) Changes to This Policy</h2>
+<p>If we update this policy, we will update the "Last updated" date above.</p>
+
+<h2>7) Contact</h2>
+<p>For privacy concerns or questions, please contact us through the Chrome Web Store listing or the project's support channel.</p>
+
+</body>
+</html>
